@@ -1,0 +1,25 @@
+GLC # identifica o tipo de formalismo
+# Listagem das variáveis
+1 # Número de variáveis
+E # Variável 0 - A variável inicial é sempre a 0.
+
+# Listagem dos terminais
+6 # Número de símbolos terminais (sem incluir a palavra vazia (‘&’))
++ # Variável 0
+* # Variável 1
+, # Variável 2
+] # Variável 3
+[ # Variável 4
+x #variavel 5
+
+# Listagem de Regras de Produção
+E # Lado esquerdo da produção S  aAa
+E+E # Lado direito da produção S  aAa
+E # Lado esquerdo da produção S  bBb
+E*E # Lado direito da produção S  bBb
+E # Lado esquerdo da produção A  a
+[E] # Lado direito da produção A  a
+
+E # Lado esquerdo da produção A  b
+x # Lado direito da produção A  b
+

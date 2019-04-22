@@ -1,0 +1,34 @@
+GLC	# identifica o tipo de formalismo
+8	# quantidade de variaveis
+E
+K
+I
+U
+P
+T
+R
+F
+6	# quantidade de símbolos terminais
++
+*
+,
+]
+[
+x
+# Listagem de Regras de Produção
+E
+ET	 #E->ET
+F
+EP	 #F->EP
+I
+*	 #I->*
+K
++	 #K->+
+P
+]	 #P->]
+R
+IE	 #R->IE
+U
+[	 #U->[
+T
+KE	 #T->KE
